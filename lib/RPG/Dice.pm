@@ -5,6 +5,8 @@ use Carp;
 
 # ABSTRACT: emulate rolling dice
 
+our $VERSION = "1.1";
+
 sub new {
     shift;
     my $pat = shift;
@@ -48,7 +50,7 @@ RPG::Dice - emulate rolling dice
 
 =head1 VERSION
 
-version 1.1
+version 1.110
 
 =head1 SYNOPSIS
 
