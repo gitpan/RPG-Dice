@@ -50,14 +50,14 @@ RPG::Dice - emulate rolling dice
 
 =head1 VERSION
 
-version 1.110
+version 1.200
 
 =head1 SYNOPSIS
 
 	use RPG::Dice;
 	# Single six sided dice
-	my $d1 = RPG::Dice->new('1d6'); 
-	# Two six sided dice 
+	my $d1 = RPG::Dice->new('1d6');
+	# Two six sided dice
 	my $d2 = RPG::Dice->new('2d6');
 
 	#
@@ -66,10 +66,11 @@ version 1.110
 
 =head1 METHODS
 
-=head2 new 
+=head2 new
 
 This is the constructor method for this module.  You pass a string constant
-to the module in the form of XdY where X is the number of dice and Y is the number of sides to the dice.
+to the module in the form of XdY where X is the number of dice and Y is the
+number of sides to the dice.
 
 =head2 roll
 

@@ -19,7 +19,7 @@ my %module_build_args = (
     "Peter L. Berghold <peter\@berghold.net>"
   ],
   "dist_name" => "RPG-Dice",
-  "dist_version" => "1.110",
+  "dist_version" => "1.200",
   "license" => "perl",
   "module_name" => "RPG::Dice",
   "recommends" => {},
