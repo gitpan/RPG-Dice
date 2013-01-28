@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "emulate rolling dice",
-  "AUTHOR" => "Peter L. Berghold <peter\@berghold.net>",
+  "AUTHOR" => "Peter L. Berghold <cpan\@berghold.net>",
   "BUILD_REQUIRES" => {
     "Module::Build" => "0.3601",
     "Test::More" => "0.88"
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.200",
+  "VERSION" => "1.201",
   "test" => {
     "TESTS" => "t/*.t"
   }

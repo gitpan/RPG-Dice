@@ -5,7 +5,7 @@ use Carp;
 
 # ABSTRACT: emulate rolling dice
 
-our $VERSION = "1.1";
+our $VERSION = "1.2";
 
 sub new {
     shift;
@@ -50,7 +50,7 @@ RPG::Dice - emulate rolling dice
 
 =head1 VERSION
 
-version 1.200
+version 1.201
 
 =head1 SYNOPSIS
 
@@ -78,7 +78,7 @@ This performs the actual dice roll
 
 =head1 AUTHOR
 
-Peter L. Berghold <peter@berghold.net>
+Peter L. Berghold <cpan@berghold.net>
 
 =head1 COPYRIGHT AND LICENSE
 

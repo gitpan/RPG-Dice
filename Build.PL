@@ -16,16 +16,17 @@ my %module_build_args = (
   },
   "dist_abstract" => "emulate rolling dice",
   "dist_author" => [
-    "Peter L. Berghold <peter\@berghold.net>"
+    "Peter L. Berghold <cpan\@berghold.net>"
   ],
   "dist_name" => "RPG-Dice",
-  "dist_version" => "1.200",
+  "dist_version" => "1.201",
   "license" => "perl",
   "module_name" => "RPG::Dice",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "Carp" => 0,
+    "perl" => "5.006",
     "strict" => 0,
     "warnings" => 0
   },
